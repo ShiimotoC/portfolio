@@ -1,0 +1,47 @@
+//
+// ベースのスタイル
+//
+
+// 変数
+$basecolor: #F7FDFD;
+$turquoise: #31AEB2;
+$black: #111;
+$gray: #92948F;
+$brown: #B5683C;
+
+
+// ベーススタイル
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: $black;
+  background-color: $basecolor;
+  
+  @media (min-width: 769px) {
+    font-size: 1.6rem;
+  }
+}
+
+a:link, a:visited, a:active  {
+    text-decoration: none;
+    color: $black;
+  }
+
+a:hover {
+    color: $turquoise;
+}
+  
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+  
+small {
+    font-size: 1.2rem;
+  }
