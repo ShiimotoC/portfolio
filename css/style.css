@@ -368,6 +368,8 @@ h3 {
   margin: 0 auto 1rem;
   max-height: 15rem;
   border: solid 1px #111;
+  -o-object-fit: contain;
+     object-fit: contain;
   box-sizing: border-box;
 }
 
