@@ -6,7 +6,10 @@
     height: 80vh;
     display: flex;
     align-items: center;
-    background: linear-gradient($basecolor, $turquoise);
+    background-image: url(../images/cover/cover_bg.jpg);
+    background-position: center;
+    background-color: rgba($color: $basecolor, $alpha: .43);
+    background-blend-mode: lighten;
 
     @media (min-width: 769px) {
         height: 70vh;
@@ -22,8 +25,12 @@
 
     .cover-ttl-name {
         width: 100%;
+        display: inline;
         text-align: right;
+        padding: 0 2rem;
         font-size: 2.4rem;
+        background-color: $black;
+        color: $turquoise;
 
         @media (min-width: 769px) {
             text-align: left;

@@ -2,7 +2,7 @@
     width: 46%;
     margin: 0 0 2rem;
     padding: 0;
-    background: $gray;
+    background-image: radial-gradient($basecolor, $gray);
     background-clip: border-box;
     text-align: center;
 
@@ -44,7 +44,7 @@
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 
     @media (min-width: 769px) {
       flex-flow: row wrap;
@@ -52,6 +52,8 @@
     }
     
     img {
+      max-height: 50vh;
+
       @media (min-width: 769px) {
         max-width: 50%;
         object-fit: contain;
