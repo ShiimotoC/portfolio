@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shiimoto&thinsp;Chie&ensp;Portfolio</title>
+        <meta name="discription" content="Webデザイナー椎本ちえのポートフォリオサイトです。これまでの活動、スキル、プロフィールを公開しています。">
+        <link rel="icon" type="image/png"  href="./images/icon/portfoliosite.png">
+
+
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/ced3bf03b1.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--ヘッダー-->
+        <header class="header">
+            <a href="./index.html" class="header-icon-top">
+                <img src="./images/icon/portfoliosite.png" alt="icon_toppage">
+            </a>
+            <div id="nav-button" class="header-icon-linkstone linkstone">
+                <p>MENU</p>
+            </div>
+ 
+            <!--トグルメニュー-->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">T<span>O</span>P</a></li>
+                    <li>W<span>O</span>RKS</li>
+                    <li id="nav-list-small"><a href="works_stylistEdward.html">stylist&thinsp;Edward</a></li>
+                    <li id="nav-list-small"><a href="works_Nattoya.html">なっとう屋&nbsp;Online&thinsp;shop</a></li>
+                    <li id="nav-list-small"><a href="works_Portfolio.html">Portfolio</a></li>
+                    <li id="nav-list-small"><a href="practice.html">PRACTICE</a></li>
+                    <li><a href="contact.html">C<span>O</span>NTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--メイン-->
+        <main class="main">
+            <section class="page-contents">
+                <h2 class="section-ttl">WORKS</h2>
+
+                <!--work-->
+                <div id="work3" class="work-item">
+                    <div class="work-item-ttl">
+                        <h3>Portfolio(このサイト)</h3>
+                    </div>
+                    <div class="work-item-mockimages">
+                        <img src="./images/works/Portfolio/mockup_po1_macbook.png" class="work-item-image" alt="mockup-image-laptop">
+                        <img src="./images/works/Portfolio/mockup_po1_iphoneX.png" class="work-item-image work-item-image-whalf" alt="mockup-image-smartphone">
+                        <img src="./images/works/Portfolio/mockup_po2_iphoneX.png" class="work-item-image work-item-image-whalf" alt="mockup-image-smartphone">
+                        <img src="./images/works/Portfolio/mockup_po3_iphoneX.png" class="work-item-image work-item-image-whalf" alt="mockup-image-smartphone">
+                        <img src="./images/works/Portfolio/mockup_po2_macbook.png" class="work-item-image" alt="mockup-image-laptop">
+                    </div>
+                    <div class="item-caption">
+                        <div class="item-caption-det">
+                            <h4>担当部分</h4>
+                            <p>企画、設計、デザイン、制作</p>
+                            <h4>制作時間</h4>
+                            <p>7日</p>
+                            <h4>コンセプト・ターゲット</h4>
+                            <p>就職活動を通して出会う方々に向けて作成。</p>
+                            <p>これまでに制作したものを公開することで、スキルレベル等を確認していただく。また『椎本ちえ』のひととなりも知ってもらう。</p>
+                            <h4>コメント</h4>
+                            <p>掲載しているコンテンツに迷いなくたどり着けることを重視して、同一機能で統一のアイコンを使用するようにした。</p>
+                            <p>JQueryを使用してスクロールアクションや機能にも配慮した。</p>
+                            <a href="https://shiimotoc.github.io/portfolio/">https://shiimotoc.github.io/portfolio/</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- othrt works -->
+                <div class="work-item">
+                    <div class="work-item-ttl">
+                        <h3>Other Works</h3>
+                    </div>
+                    <div class="work-item-index">
+                        <div id="work1" class="work-item-index-title">
+                            <a href="./works_stylistEdward.html">
+                                <div class="linkstone"></div>
+                                <p>stylist&thinsp;Edward</p>
+                            </a>
+                        </div>  
+                        <div id="work3" class="work-item-index-title">
+                            <a href="./works_Nattoya.html">
+                                <div class="linkstone"></div>
+                                <p>なっとう屋&nbsp;Online&thinsp;shop<p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="page_top"><a href="#"></a></div>
+        </main>
+
+        <footer class="footer">
+            <small class="copyright">&copy;Shiimoto Works on. All Rights Reserved.</small>
+        </footer>
+
+        <!--JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./js/pagetop.js"></script>
+        <script src="./js/togglemenu.js"></script>
+        
+    </body>
+</html>

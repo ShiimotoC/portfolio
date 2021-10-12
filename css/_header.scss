@@ -75,9 +75,13 @@
     li{
       padding: 0;
       margin-top: 2rem;
+
+      a {
+          border-bottom: solid 1px $black;
+      }
     }
 
-    #nav-list-practice {
+    #nav-list-small {
         font-size: 1.8rem;
         margin-top: 0;
 
