@@ -404,7 +404,7 @@ h3 {
 }
 @media (min-width: 769px) {
   .work-thumbnail {
-    width: 42%;
+    width: 44%;
     max-height: 30rem;
     padding: 2rem;
   }
