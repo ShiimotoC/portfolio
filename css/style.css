@@ -404,7 +404,7 @@ h3 {
 }
 @media (min-width: 769px) {
   .work-thumbnail {
-    width: 48%;
+    width: 42%;
     max-height: 30rem;
     padding: 2rem;
   }
@@ -429,6 +429,12 @@ h3 {
      object-fit: contain;
   box-sizing: border-box;
 }
+@media (min-width: 769px) {
+  .work-item-image {
+    max-height: 19rem;
+    margin: 0 auto 2rem;
+  }
+}
 
 .thumbnail-ttl {
   display: flex;
@@ -442,11 +448,18 @@ h3 {
   margin: 0;
   line-height: 2.8rem;
 }
+.thumbnail-ttl h3 span {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+@media (min-width: 769px) {
+  .thumbnail-ttl h3 {
+    line-height: 3.8rem;
+  }
+}
 
 .practice-thumbnail {
   width: 100%;
-  height: calc(100vw * .3);
-  max-height: 25rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -458,14 +471,12 @@ h3 {
 }
 @media (min-width: 769px) {
   .practice-thumbnail {
-    width: 55%;
-    height: 10rem;
+    width: 42%;
   }
 }
 
 .practice-item-image#toppage-practice {
   width: 50%;
-  height: 100%;
   padding: 0;
   margin: 0;
   -o-object-fit: contain;
@@ -480,7 +491,8 @@ h3 {
 @media (min-width: 769px) {
   .work-item {
     display: flex;
-    align-items: flex-start;
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: flex-start;
   }
 }
@@ -494,8 +506,7 @@ h3 {
 }
 @media (min-width: 769px) {
   .work-item-mockimages {
-    width: 60%;
-    margin-right: 6rem;
+    width: 50%;
   }
 }
 .work-item-mockimages .work-item-image-whalf {
@@ -505,6 +516,7 @@ h3 {
 }
 
 .work-item-ttl {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -526,6 +538,14 @@ h3 {
 }
 .work-item-ttl a {
   font-size: 1.8rem;
+}
+
+@media (min-width: 769px) {
+  .item-caption {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .item-caption-det {
@@ -551,6 +571,11 @@ h3 {
   align-items: center;
   padding-left: 1.3rem;
   margin: 0 0 1rem;
+}
+@media (min-width: 769px) {
+  .work-item-index .work-item-index-title a {
+    padding-left: 1.5rem;
+  }
 }
 .work-item-index .work-item-index-title a p {
   padding-left: 1rem;
@@ -610,13 +635,13 @@ iframe {
 
 .practice-item-image {
   width: 100%;
-  height: 13rem;
+  min-height: 13rem;
   position: relative;
   overflow: hidden;
 }
 @media (min-width: 769px) {
   .practice-item-image {
-    height: 20rem;
+    min-height: 20rem;
   }
 }
 .practice-item-image img {
